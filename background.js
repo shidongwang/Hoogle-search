@@ -19,7 +19,6 @@ function getPage(info, tab, web) {
     } else { 
         url = "http://www.google.com/?q="; 
     }
-    alert(url);
     url += info.selectionText;
     chrome.tabs.create({url:url});
 }
