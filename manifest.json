@@ -1,0 +1,11 @@
+{
+  "name": "Hoogle Search",
+  "description" : "To use, type 'hg' plus a Haskell function name into the Omnibox.",
+  "version": "0.1",
+  "permissions": [ "contextMenus" ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword" : "HG"}, 
+  "manifest_version": 2
+}
